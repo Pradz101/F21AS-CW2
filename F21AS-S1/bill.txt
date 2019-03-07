@@ -1,0 +1,619 @@
+Order ID: 151	Customer ID: 123
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    2	     20.0
+2	FOOD001	    Veg Pizza     30.0	    3	     90.0
+3	BEVE001	    Coke     	  5.0	    2	     10.0
+
+
+TOTAL BILL
+120.0
+Order ID: 154	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    1	     10.0
+2	FOOD001	    Veg Pizza     	  30.0	    1	     30.0
+3	BEVE001	    Coke     	  5.0	    1	     5.0
+4	FOOD004	    Butter Chicken     	  25.0	    1	     25.0
+5	FOOD003	    Beef Burger     	  15.0	    1	     15.0
+6	FOOD002	    Shawarma     	  7.0	    1	     7.0
+
+
+TOTAL BILL
+92.0
+Order ID: 160	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    6	     60.0
+
+
+TOTAL BILL
+60.0
+Order ID: 161	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    5	     50.0
+
+
+TOTAL BILL
+50.0
+
+
+TOTAL BILL
+0.0
+Order ID: 162	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    3	     24.000000000000004
+2	FOOD001	    Veg Pizza	  30.0	    3	     72.00000000000001
+3	BEVE001	    Coke     	  5.0	    3	     12.000000000000002
+4	BEVE001	    Coke     	  5.0	    4	     16.0
+5	FOOD004	    B.Chicken	  25.0	    12	     240.00000000000003
+6	FOOD003	    Burger	  15.0	    12	     144.00000000000003
+7	FOOD002	    Shawarma	  7.0	    12	     67.20000000000002
+8	BEVE002	    Coffee     	  10.0	    12	     96.00000000000001
+
+
+TOTAL BILL
+671.2000000000002
+Order ID: 170	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    12	     96.00000000000001
+2	FOOD001	    Veg Pizza	  30.0	    3	     72.00000000000001
+3	FOOD004	    B.Chicken	  25.0	    1	     25.0
+
+
+TOTAL BILL
+193.00000000000003
+Order ID: 173	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	FOOD004	    B.Chicken	  25.0	    1	     25.0
+2	FOOD001	    Veg Pizza	  30.0	    1	     30.0
+3	BEVE002	    Coffee     	  10.0	    1	     10.0
+
+
+TOTAL BILL
+65.0
+Order ID: 176	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    1	     10.0
+
+
+TOTAL BILL
+10.0
+Order ID: 177	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE001	    Coke     	  5.0	    1	     5.0
+
+
+TOTAL BILL
+5.0
+Order ID: 178	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    1	     10.0
+
+
+TOTAL BILL
+10.0
+Order ID: 179	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    1	     10.0
+
+
+TOTAL BILL
+10.0
+Order ID: 180	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    2	     20.0
+
+
+TOTAL BILL
+20.0
+Order ID: 181	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    4	     32.0
+
+
+TOTAL BILL
+32.0
+Order ID: 182	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    1	     10.0
+
+
+TOTAL BILL
+10.0
+Order ID: 183	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    1	     10.0
+
+
+TOTAL BILL
+10.0
+Order ID: 184	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    65	     520.0
+
+
+TOTAL BILL
+520.0
+Order ID: 185	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    2	     20.0
+2	BEVE002	    Coffee     	  10.0	    3	     24.000000000000004
+3	FOOD001	    Veg Pizza	  30.0	    4	     96.0
+4	FOOD004	    B.Chicken	  25.0	    1	     25.0
+
+
+TOTAL BILL
+165.0
+Order ID: 189	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    2	     20.0
+2	FOOD001	    Veg Pizza	  30.0	    1	     30.0
+
+
+TOTAL BILL
+50.0
+
+
+TOTAL BILL
+0.0
+Order ID: 191	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    3	     24.000000000000004
+
+
+TOTAL BILL
+24.000000000000004
+Order ID: 192	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    4	     32.0
+
+
+TOTAL BILL
+32.0
+Order ID: 193	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    56	     448.00000000000006
+
+
+TOTAL BILL
+448.00000000000006
+Order ID: 194	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    1	     10.0
+2	FOOD001	    Veg Pizza	  30.0	    1	     30.0
+
+
+TOTAL BILL
+40.0
+Order ID: 196	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    5	     40.0
+2	FOOD001	    Veg Pizza	  30.0	    2	     60.0
+
+
+TOTAL BILL
+100.0
+Order ID: 198	Customer ID: 
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    8	     64.0
+
+
+TOTAL BILL
+64.0
+
+
+TOTAL BILL
+0.0
+Order ID: 199	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    3	     24.000000000000004
+
+
+TOTAL BILL
+24.000000000000004
+Order ID: 200	Customer ID: C002
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    55	     440.0
+
+
+TOTAL BILL
+440.0
+Order ID: 201	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    12	     96.00000000000001
+
+
+TOTAL BILL
+96.00000000000001
+Order ID: 202	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    2	     20.0
+2	BEVE002	    Coffee     	  10.0	    2	     20.0
+
+
+TOTAL BILL
+40.0
+Order ID: 204	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    2	     20.0
+
+
+TOTAL BILL
+20.0
+Order ID: 205	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    8	     64.0
+
+
+TOTAL BILL
+64.0
+
+
+TOTAL BILL
+0.0
+Order ID: 206	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	SWEET02	    Cheese Cake     	  12.75	    3	     30.600000000000005
+
+
+TOTAL BILL
+30.600000000000005
+Order ID: 207	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    2	     20.0
+2	FOOD003	    Burger	  15.0	    4	     48.0
+3	FOOD001	    Veg Pizza	  30.0	    4	     96.0
+
+
+TOTAL BILL
+164.0
+Order ID: 210	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    5	     40.0
+2	FOOD002	    Shawarma	  7.0	    8	     44.800000000000004
+
+
+TOTAL BILL
+84.80000000000001
+Order ID: 212	Customer ID: C003
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    5	     40.0
+2	BEVE001	    Coke     	  5.0	    9	     36.0
+
+
+TOTAL BILL
+76.0
+Order ID: 214	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    4	     32.0
+2	BEVE002	    Coffee     	  10.0	    8	     64.0
+
+
+TOTAL BILL
+96.0
+Order ID: 216	Customer ID: C007
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    8	     64.0
+2	FOOD003	    Burger	  15.0	    8	     96.0
+
+
+TOTAL BILL
+160.0
+Order ID: 218	Customer ID: C0015
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	FOOD003	    Burger	  15.0	    45	     540.0
+
+
+TOTAL BILL
+540.0
+Order ID: 219	Customer ID: C0017
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	SWEET01	    Strawberry Cake     	  12.75	    4	     40.800000000000004
+2	SWEET01	    Strawberry Cake     	  12.75	    4	     40.800000000000004
+
+
+TOTAL BILL
+81.60000000000001
+Order ID: 221	Customer ID: C0017
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    5	     40.0
+2	SWEET02	    Cheese Cake     	  12.75	    4	     40.800000000000004
+3	FOOD003	    Burger	  15.0	    7	     84.00000000000001
+
+
+TOTAL BILL
+164.8
+________________________________________________________________
+Order ID: 224	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    5	     40.0
+
+
+TOTAL BILL
+40.0
+________________________________________________________________
+Order ID: 225	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    10	     75.0
+2	FOOD001	    Veg Pizza	  30.0	    6	     144.00000000000003
+3	SWEET01	    Strawberry Cake     	  12.75	    4	     43.35
+4	SWEET02	    Cheese Cake     	  12.75	    4	     43.35
+5	SWEET04	    Violate Cake     	  12.75	    4	     43.35
+6	SWEET03	    Chocolate Cake     	  12.75	    4	     43.35
+
+
+TOTAL BILL
+392.4
+________________________________________________________________
+Order ID: 231	Customer ID: C006
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	FOOD004	    B.Chicken	  25.0	    7	     140.0
+2	FOOD001	    Veg Pizza	  30.0	    7	     168.00000000000003
+
+
+TOTAL BILL
+308.0
+________________________________________________________________Order ID: 233	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    5	     40.0
+
+
+TOTAL BILL
+40.0
+===============================================================  Order ID: 234	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    6	     48.00000000000001
+
+
+TOTAL BILL
+48.0
+=================================================================
+Order ID: 235	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    5	     40.0
+2	SWEET01	    Strawberry Cake     	  12.75	    5	     51.0
+3	BEVE001	    Coke     	  5.0	    5	     20.0
+
+
+TOTAL BILL
+111.0
+=================================================================
+Order ID: 238	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    5	     40.0
+2	FOOD002	    Shawarma	  7.0	    10	     52.5
+
+
+TOTAL BILL
+92.5
+=================================================================
+Order ID: 240	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    5	     40.0
+
+
+TOTAL BILL
+40.0
+=================================================================
+Order ID: 241	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    5	     40.0
+2	FOOD004	    B.Chicken	  25.0	    5	     100.0
+
+
+TOTAL BILL
+140.0
+=================================================================
+Order ID: 243	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    1	     10.0
+2	BEVE002	    Coffee     	  10.0	    1	     10.0
+3	FOOD004	    B.Chicken	  25.0	    1	     25.0
+4	FOOD002	    Shawarma	  7.0	    1	     7.0
+5	SWEET01	    Strawberry Cake     	  12.75	    1	     12.75
+
+
+TOTAL BILL
+64.75
+=================================================================
+Order ID: 248	Customer ID: C008
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	SWEET01	    Strawberry Cake     	  12.75	    1	     12.75
+2	SWEET02	    Cheese Cake     	  12.75	    1	     12.75
+3	SWEET04	    Violate Cake     	  12.75	    1	     12.75
+4	SWEET03	    Chocolate Cake     	  12.75	    1	     12.75
+
+
+TOTAL BILL
+51.0
+=================================================================
+Order ID: 252	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    6	     48.00000000000001
+2	FOOD003	    Burger	  15.0	    6	     72.00000000000001
+3	BEVE001	    Coke     	  5.0	    11	     41.25
+
+
+TOTAL BILL
+161.25
+=================================================================
+Order ID: 255	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE001	    Coke     	  5.0	    1	     5.0
+2	SWEET01	    Strawberry Cake     	  12.75	    1	     12.75
+3	SWEET02	    Cheese Cake     	  12.75	    1	     12.75
+4	SWEET04	    Violate Cake     	  12.75	    1	     12.75
+
+
+TOTAL BILL
+43.25
+=================================================================
+Order ID: 259	Customer ID: C001
+
+No      Item-ID     Item-Name     Cost    Quantity   Sub-Total
+________________________________________________________________
+
+1	BEVE002	    Coffee     	  10.0	    5	     40.0
+2	BEVE002	    Coffee     	  10.0	    5	     40.0
+3	BEVE002	    Coffee     	  10.0	    5	     40.0
+4	BEVE002	    Coffee     	  10.0	    5	     40.0
+5	BEVE002	    Coffee     	  10.0	    5	     40.0
+
+
+TOTAL BILL
+200.0
+=================================================================
