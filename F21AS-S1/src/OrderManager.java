@@ -317,7 +317,7 @@ public class OrderManager {
 	 * @param item_detail : The string that contain the item details
 	 * @param item_quantity : The Integer that contain the quantity of the item ordered by the user
 	 * @param customer_id : The string that contain the customer ID 
-	 * @param Orderfile : The string that contain the list of orders from the Orders file
+	 * @param OrderFile : The string that contain the list of orders from the Orders file
 	 * @param rate : The price of the item
      */
 	public void addOrder(String item_detail,int item_quantity,String customer_id,String OrderFile,double rate) {
@@ -478,9 +478,11 @@ public class OrderManager {
 		ExecutorService executor = Executors.newFixedThreadPool(20);
         for (Order CurrentOrder:orderList)// reading each orders 
         {  
-            Runnable worker = new OrderThread(CurrentOrder);  
+           // Runnable worker = new OrderThread(CurrentOrder);
+            Runnable server = new ServerThread(orderList);
             //calling execute method of ExecutorService
-            executor.execute(worker);  
+            //executor.execute(worker);
+            executor.execute(server);
           }  
         executor.shutdown();  
         while (!executor.isTerminated()) {   }  
