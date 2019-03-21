@@ -1,4 +1,7 @@
 package Log;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -88,5 +91,15 @@ public class Log {
 		Log.orderListB = orderListB;
 	}
 	
+	public void logToFile() {
+		String logstring = getLog();
+		try {
+			FileWriter OrderWriter = new FileWriter("log.txt");
+			OrderWriter.write(logstring);
+			OrderWriter.close();
+		}
+	catch (FileNotFoundException e) {System.out.println("file not found ");}
+	catch (IOException e) {e.printStackTrace();}
+	}
 	
 }
