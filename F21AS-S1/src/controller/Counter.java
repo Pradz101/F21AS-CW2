@@ -130,7 +130,7 @@ public class Counter implements Runnable {
 			}
 		if(th1 == true && th2 == true && th3 == true && th4 == true) {
 		Close.Closing_GUI();
-		
+		logtofile();
 		th1 = false;
 		}
 	}
@@ -365,6 +365,13 @@ public class Counter implements Runnable {
 		
 		orderList.remove(o);
 		
+	}
+
+
+
+
+	public void logtofile() {
+		log.logToFile();		
 	}
 	
 }
