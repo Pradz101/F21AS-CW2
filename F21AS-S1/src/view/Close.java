@@ -26,6 +26,7 @@ public class Close extends JFrame {
 			public void run() {
 				try {
 					Close frame = new Close();
+					frame.setLocationRelativeTo(null);
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -44,6 +45,7 @@ public class Close extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+	
 		
 		JScrollPane scrollPane = new JScrollPane();
 		scrollPane.setBounds(69, 50, 426, 84);

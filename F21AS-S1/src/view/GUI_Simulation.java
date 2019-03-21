@@ -13,6 +13,7 @@ import javax.swing.text.DefaultCaret;
 import controller.Counter;
 
 import javax.swing.JTextArea;
+import javax.swing.JTextField;
 import javax.swing.JScrollPane;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
@@ -32,11 +33,12 @@ public class GUI_Simulation extends JFrame {
 	JTextArea textArea_2 = new JTextArea();
 	JTextArea textArea_5 = new JTextArea();
 	JTextArea textArea_6 = new JTextArea();
+	private JTextField textField;
 	
 	String a;
 	String b, c, d;
 	String m;
-
+	
 	/**
 	 * Launch the application.
 	/**
@@ -135,7 +137,7 @@ public void updateQue() {
 	
 	
 }
-	public GUI_Simulation(String aList, String bList) {
+	public GUI_Simulation(String aList, String bList, boolean g) {
 		setTitle("Coffee Shop");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 1511, 838);
@@ -235,12 +237,34 @@ public void updateQue() {
 		
 		//--------------------------------------------------------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^---------
 		
+		JLabel lblCurrentSpeed = new JLabel("Current Speed");
+		lblCurrentSpeed.setBounds(570, 509, 107, 29);
+		contentPane.add(lblCurrentSpeed);
+		
+		textField = new JTextField();
+		textField.setEditable(false);
+		textField.setBounds(702, 726, 118, 36);
+		contentPane.add(textField);
+		textField.setColumns(10);
+		
 		JButton btnSpeedUpSimulation = new JButton("Increase Simulation");
-		btnSpeedUpSimulation.setBounds(523, 723, 184, 43);
+		btnSpeedUpSimulation.setEnabled(false);
+		System.out.print(c.getG());
+		if(g == true) {
+			btnSpeedUpSimulation.setEnabled(true);
+		}
+			
+		btnSpeedUpSimulation.setBounds(493, 723, 184, 43);
 		contentPane.add(btnSpeedUpSimulation);
 		
+		
 		JButton btnSlowSimulation = new JButton("Slow Simulation");
-		btnSlowSimulation.setBounds(810, 723, 168, 43);
+		btnSlowSimulation.setEnabled(false);
+		if(g==true) {
+			btnSlowSimulation.setEnabled(true);
+		}
+		
+		btnSlowSimulation.setBounds(842, 723, 168, 43);
 		contentPane.add(btnSlowSimulation);
 		
 		JButton btnCreateLog = new JButton("Create Log");
@@ -254,7 +278,13 @@ public void updateQue() {
 				
 				public void actionPerformed(ActionEvent e) {
 					try {
+						textField.setText("2");
 						Counter.start();
+						setVisible(false);
+						btnSpeedUpSimulation.setEnabled(true);
+						
+						
+						
 					} catch (InterruptedException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
@@ -269,20 +299,25 @@ public void updateQue() {
 					String S;
 					summary.getContentPane().setLayout((LayoutManager) new BoxLayout(summary.getContentPane(), BoxLayout.Y_AXIS));
 				    summary.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-					
 					summary.setSize(700, 800);
 				    summary.setLocation(800,100);
-				    JTextArea textAreaLog = new JTextArea(500, 200);
+				    
+				    JTextArea textAreaLog = new JTextArea();
 				    textAreaLog.setFont(new Font("Monospaced", Font.PLAIN, 20));
 				    textAreaLog.setEditable(false);
 				    textAreaLog.setBackground(Color.LIGHT_GRAY);
 				    
+				    JScrollPane scrollPane_9 = new JScrollPane();
+					scrollPane_9.setBounds(26, 404, 417, 182);
+					contentPane.add(scrollPane_9);
+					scrollPane_9.setViewportView(textAreaLog);
+				    
 				    //----------------------------------------------------------------------------
 				    S= c.bullLog(); 
 				    
-				    textArea.append(S);
+				    textAreaLog.append(S);
 			
-				    summary.getContentPane().add(textArea);
+				    summary.getContentPane().add(scrollPane_9);
 				
 				    summary.setVisible(true);
 				    
@@ -292,10 +327,12 @@ public void updateQue() {
 			btnSpeedUpSimulation.addActionListener(new ActionListener() {
 				
 				public void actionPerformed(ActionEvent e) {
+					btnSlowSimulation.setEnabled(true);
 					int speed;
 					speed = c.getSpeed() +50 ;
 					System.out.println(c.getSpeed());
 					c.setSpeed(speed);
+					setStimulateSpeed(speed);
 					
 				}});
 			
@@ -308,14 +345,23 @@ public void updateQue() {
 					}
 					else if(c.getSpeed()<4 && c.getSpeed()>1) {
 						speed = c.getSpeed() -1 ;
+						btnSlowSimulation.setEnabled(false);
 					}
 					else if(c.getSpeed()==1) {
 						System.out.println("Minumum Smulation Speed Reached");
+						btnSlowSimulation.setEnabled(false);
 					}
 					System.out.println(c.getSpeed());
 					c.setSpeed(speed);
+					setStimulateSpeed(speed);
 					
 				}});
 		}
+	
+	
+	
+	public void setStimulateSpeed(int s) {
+		this.textField.setText(""+s);
+	}
 }
 

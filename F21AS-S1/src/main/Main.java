@@ -6,7 +6,7 @@ public class Main {
 
 	public static void  main(String[] args){
 		
-			GUI_Simulation gui = new GUI_Simulation("", "");
+			GUI_Simulation gui = new GUI_Simulation("", "", false);
 			
 			gui.setVisible(true);
 		

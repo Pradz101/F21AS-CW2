@@ -33,23 +33,27 @@ public class Counter implements Runnable {
 	static List<Order> orderListC= new ArrayList<Order>();
 	static List<Order> orderListD= new ArrayList<Order>();
 	
-
+	boolean flag= true;
 	boolean i = true;	
 	private static int s = 1; // simulation speed variable
 	static int oID = 0;
 	static boolean ia =true, exit = false, th1= false, th2= false, th3= false, th4= false;
 	
 	Log log = new Log(orderList,orderListA,orderListB);
-	static GUI_Simulation gui = new GUI_Simulation(getListOrdersA(), getListOrdersB());
+	boolean g = true;
+	static GUI_Simulation gui = new GUI_Simulation(getListOrdersA(), getListOrdersB(), true);
 	
 	@SuppressWarnings("unlikely-arg-type")
 	@Override
 	public void run() {
 		try {
+			g = true;
+			
 			
 			
 			 if(i == true) {
 				gui.setVisible(true);
+				
 				i = false;
 				}
 			
@@ -120,11 +124,15 @@ public class Counter implements Runnable {
 				//-----------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-------------------	
 					
 			Thread.sleep(1000);
+			flag = true;
 			}catch (InterruptedException e) {
 			e.printStackTrace();
 			}
 		if(th1 == true && th2 == true && th3 == true && th4 == true) {
-		Close.Closing_GUI();}
+		Close.Closing_GUI();
+		
+		th1 = false;
+		}
 	}
 	
 	
@@ -135,9 +143,9 @@ public class Counter implements Runnable {
 
         readFile("Items.csv");
         readFile("Orders.csv");
-	
+
         OrderGenerator oG = new OrderGenerator();
-		for(int c = 10; c<17; c++) {
+		for(int c = 10; c<70; c++) {
 		orderList.add(oG.generateOrder(c));
 		}
 		
@@ -152,6 +160,7 @@ public class Counter implements Runnable {
         t2.setName("Counter 2");
         t3.setName("Counter 3");
         t4.setName("Counter 4");
+        
 		
 	 	t1.start();
 	 	Thread.sleep(500);
@@ -346,6 +355,12 @@ public class Counter implements Runnable {
 		return log.getLog();
 	}
 
+	public boolean getG() {
+		
+		return g;
+		
+	}
+	
 	public synchronized void removeElement(Order o) {
 		
 		orderList.remove(o);
