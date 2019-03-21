@@ -55,7 +55,7 @@ public class Close extends JFrame {
 		scrollPane.setViewportView(txtrCoffeeShopIs);
 		txtrCoffeeShopIs.setFont(new Font("Monospaced", Font.BOLD | Font.ITALIC, 16));
 		txtrCoffeeShopIs.setEditable(false);
-		txtrCoffeeShopIs.setText("Coffee Shop is Closed! Come back later! :)");
+		txtrCoffeeShopIs.setText("Coffee Shop is Closed! Come back later!\n Please Check Log.txt for the log file :)");
 		
 		JButton btnThankYou = new JButton("Thank You");
 		btnThankYou.addActionListener(new ActionListener() {
