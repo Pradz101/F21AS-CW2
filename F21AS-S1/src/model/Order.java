@@ -1,3 +1,10 @@
+/**
+* Getters and Setters for Order class
+* 
+* @author  Moiz
+* @since   14-03-2019 
+*/
+
 package model;
 import java.text.DateFormat;
 
@@ -11,8 +18,12 @@ import interfaces.Observer;
 import interfaces.Subject;
 
 
-public class Order implements Subject 
+/**
+ * This class is used to add to get and set
+ * order parameters
+*/
 
+public class Order implements Subject
 {
 	
 	String orderID;
@@ -20,6 +31,21 @@ public class Order implements Subject
 	int itemQ1, itemQ2, itemQ3, itemQ4;
 	double totalTime;
 	double totalCost;
+	
+	/**Constructor
+	 * 
+	 * @param order_id
+	 * @param item_id1
+	 * @param item_id2
+	 * @param item_id3
+	 * @param item_id4
+	 * @param item_quantity1
+	 * @param item_quantity2
+	 * @param item_quantity3
+	 * @param item_quantity4
+	 * @param totalTime
+	 * @param totalCost
+	 */
 
 	public Order(String order_id, String item_id1, String item_id2, String item_id3, String item_id4,
 			int item_quantity1, int item_quantity2, int item_quantity3, int item_quantity4,
@@ -43,18 +69,38 @@ public class Order implements Subject
 		
 
 	}
+	
+	/**Gets total cost
+	 * 
+	 * @return totalcost
+	 */
 
 	public double getTotalCost() {
 		return totalCost;
 	}
+	
+	/**sets total cost
+	 * 
+	 * @param totalCost
+	 */
 
 	public void setTotalCost(double totalCost) {
 		this.totalCost = totalCost;
 	}
+	
+	/**returns order i
+	 * 
+	 * @return orderID
+	 */
 
 	public String getOrderID() {
 		return orderID;
 	}
+	
+	/**gets orderidno
+	 * 
+	 * @return n
+	 */
 	
 	public int getOrderIDno() {
 		int n;
@@ -63,10 +109,21 @@ public class Order implements Subject
 		
 		return n;
 	}
+	
+	/**sets order id
+	 * 
+	 * @param orderID
+	 */
 
 	public void setOrderID(String orderID) {
 		this.orderID = orderID;
 	}
+	
+	/**
+	 * 
+	 * @param itemNo
+	 * @return null
+	 */
 
 	public String getItemID(int itemNo) {
 		
@@ -92,66 +149,138 @@ public class Order implements Subject
 			return "";
 		}
 	}
+	
+	/**
+	 * 
+	 * @param itemID1
+	 */
 
 	public void setItemID1(String itemID1) {
 		this.itemID1 = itemID1;
 	}
+	
+	/**
+	 * 
+	 * @param itemID2
+	 */
 
 
 	public void setItemID2(String itemID2) {
 		this.itemID2 = itemID2;
 	}
+	
+	/**
+	 * 
+	 * @param itemID3
+	 */
 
 	public void setItemID3(String itemID3) {
 		this.itemID3 = itemID3;
 	}
-
+	
+	/**
+	 * 
+	 * @param itemID4
+	 */
 
 	public void setItemID4(String itemID4) {
 		this.itemID4 = itemID4;
 	}
+	
+	/**
+	 * 
+	 * @return itemQ1
+	 */
 
 	public int getItemQ1() {
 		return itemQ1;
 	}
+	
+	/**
+	 * 
+	 * @param itemQ1
+	 */
 
 	public void setItemQ1(int itemQ1) {
 		this.itemQ1 = itemQ1;
 	}
+	
+	/**
+	 * 
+	 * @return itemQ2
+	 */
 
 	public int getItemQ2() {
 		return itemQ2;
 	}
+	
+	/**
+	 * 
+	 * @param itemQ2
+	 */
 
 	public void setItemQ2(int itemQ2) {
 		this.itemQ2 = itemQ2;
 	}
+	
+	/**
+	 * 
+	 * @return itemQ3
+	 */
 
 	public int getItemQ3() {
 		return itemQ3;
 	}
+	
+	/**
+	 * 
+	 * @param itemQ3
+	 */
 
 	public void setItemQ3(int itemQ3) {
 		this.itemQ3 = itemQ3;
 	}
+	
+	/**
+	 *  
+	 * @return itemQ4
+	 */
 
 	public int getItemQ4() {
 		return itemQ4;
 	}
+	
+	/**
+	 * 
+	 * @param itemQ4
+	 */
 
 	public void setItemQ4(int itemQ4) {
 		this.itemQ4 = itemQ4;
 	}
+	
+	/**
+	 * 
+	 * @return totaltime divided by speed
+	 */
 
 	public double getTotalTime(double s) {
 		return totalTime/s;
 	}
+	
+	/**returns total time
+	 * 
+	 * @param totalTime
+	 */
 
 	public void setTotalTime(double totalTime) {
 		this.totalTime = totalTime;
 	}	
-
 	
+	/**returns order information
+	 * 
+	 * @return order information
+	 */
 	public String getOrderInformation() 
 	{
 		String orderInfo;	
@@ -160,17 +289,31 @@ public class Order implements Subject
 		 +"Total Cost: " + getTotalCost()+" AED\n--------------------------------------------\n\n";		
 		return orderInfo;
 	}
+	
+	/**
+	 * this is the observer list
+	 */
 	private List<Observer> registeredObservers = new LinkedList<Observer>();
 
 
+	/**
+	 * adding the registered observer
+	 */
 	public void registerObserver(Observer obs) {
 		registeredObservers.add(obs);
 	}
+	
+	/**
+	 *  removing the registered observer
+	 */
 
 	public void removeObserver(Observer obs) {
 		registeredObservers.remove(obs);
 	}
-
+	
+	/**
+	 * notifying the observer
+	 */
 	public void notifyObservers() {
 		for (Observer obs : registeredObservers)
 			obs.update();

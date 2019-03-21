@@ -1,0 +1,700 @@
+Order No. CO1
+
+BEVE002 x 2
+FOOD001 x 1
+        x 0
+        x 0
+
+Total Cost: 50.0 AED
+--------------------------------------------
+
+Order No. CO2
+
+FOOD001 x 1
+BEVE001 x 1
+        x 0
+        x 0
+
+Total Cost: 40.0 AED
+--------------------------------------------
+
+Order No. CO3
+
+BEVE001 x 4
+FOOD004 x 2
+FOOD003 x 1
+SWEET03 x 1
+
+Total Cost: 97.75 AED
+--------------------------------------------
+
+Order No. CO4
+
+FOOD004 x 1
+SWEET03 x 1
+SWEET04 x 3
+        x 0
+
+Total Cost: 35.5 AED
+--------------------------------------------
+
+Order No. CO5
+
+FOOD003 x 1
+BEVE001 x 1
+BEVE002 x 1
+        x 0
+
+Total Cost: 30.0 AED
+--------------------------------------------
+
+Order No. CO6
+
+FOOD002 x 1
+BEVE001 x 1
+        x 0
+        x 0
+
+Total Cost: 9.0 AED
+--------------------------------------------
+
+Order No. CO7
+
+SWEET01 x 1
+BEVE001 x 1
+        x 0
+        x 0
+
+Total Cost: 17.75 AED
+--------------------------------------------
+
+Order No. CO8
+
+SWEET02 x 1
+FOOD004 x 1
+BEVE002 x 1
+        x 0
+
+Total Cost: 47.75 AED
+--------------------------------------------
+
+Order No. CO9
+
+SWEET03 x 1
+FOOD004 x 1
+BEVE002 x 1
+        x 0
+
+Total Cost: 47.75 AED
+--------------------------------------------
+
+Order No. CO10
+
+SWEET04 x 1
+BEVE001 x 1
+        x 0
+        x 0
+
+Total Cost: 17.75 AED
+--------------------------------------------
+
+Order No. CO11
+
+FOOD004 x 2
+        x 1
+SWEET04 x 2
+FOOD002 x 1
+
+Total Cost: 110.47785259518913 AED
+--------------------------------------------
+
+Order No. CO12
+
+FOOD004 x 4
+        x 1
+SWEET03 x 2
+FOOD001 x 2
+
+Total Cost: 35.87967961307836 AED
+--------------------------------------------
+
+Order No. CO13
+
+        x 1
+        x 2
+        x 2
+        x 2
+
+Total Cost: 69.28433750460937 AED
+--------------------------------------------
+
+Order No. CO14
+
+FOOD001 x 4
+        x 2
+SWEET02 x 1
+FOOD002 x 3
+
+Total Cost: 89.95488430278735 AED
+--------------------------------------------
+
+Order No. CO15
+
+FOOD002 x 3
+        x 2
+SWEET03 x 2
+FOOD002 x 1
+
+Total Cost: 61.83290324386668 AED
+--------------------------------------------
+
+Order No. CO16
+
+        x 2
+BEVE002 x 1
+SWEET03 x 2
+FOOD002 x 2
+
+Total Cost: 87.99018545625574 AED
+--------------------------------------------
+
+Order No. CO17
+
+FOOD002 x 3
+BEVE001 x 1
+        x 1
+FOOD003 x 2
+
+Total Cost: 113.16180918918647 AED
+--------------------------------------------
+
+Order No. CO18
+
+FOOD002 x 3
+        x 2
+SWEET03 x 1
+FOOD002 x 1
+
+Total Cost: 72.97649584019064 AED
+--------------------------------------------
+
+Order No. CO19
+
+FOOD002 x 2
+        x 2
+        x 2
+FOOD003 x 1
+
+Total Cost: 102.64864434992427 AED
+--------------------------------------------
+
+Order No. CO20
+
+FOOD003 x 3
+BEVE001 x 1
+SWEET01 x 2
+        x 1
+
+Total Cost: 76.15913040088412 AED
+--------------------------------------------
+
+Order No. CO21
+
+FOOD001 x 3
+BEVE002 x 1
+SWEET03 x 1
+        x 2
+
+Total Cost: 109.6751102652894 AED
+--------------------------------------------
+
+Order No. CO22
+
+FOOD001 x 1
+BEVE002 x 2
+SWEET03 x 1
+FOOD001 x 1
+
+Total Cost: 110.4737492300922 AED
+--------------------------------------------
+
+Order No. CO23
+
+FOOD004 x 2
+BEVE001 x 1
+        x 2
+FOOD003 x 2
+
+Total Cost: 109.1130511607798 AED
+--------------------------------------------
+
+Order No. CO24
+
+        x 1
+BEVE001 x 2
+SWEET03 x 2
+        x 2
+
+Total Cost: 46.43494356397932 AED
+--------------------------------------------
+
+Order No. CO25
+
+        x 1
+        x 2
+        x 1
+FOOD001 x 3
+
+Total Cost: 56.69753740817211 AED
+--------------------------------------------
+
+Order No. CO26
+
+FOOD001 x 2
+        x 1
+SWEET04 x 2
+FOOD001 x 2
+
+Total Cost: 109.88469249177552 AED
+--------------------------------------------
+
+Order No. CO27
+
+        x 2
+        x 2
+SWEET02 x 2
+FOOD004 x 1
+
+Total Cost: 58.28355976212001 AED
+--------------------------------------------
+
+Order No. CO28
+
+FOOD004 x 2
+BEVE002 x 2
+SWEET04 x 1
+FOOD004 x 3
+
+Total Cost: 106.59775349419503 AED
+--------------------------------------------
+
+Order No. CO29
+
+FOOD003 x 4
+        x 1
+        x 1
+FOOD001 x 2
+
+Total Cost: 75.4545789157768 AED
+--------------------------------------------
+
+Order No. CO30
+
+FOOD003 x 4
+        x 1
+SWEET04 x 2
+FOOD002 x 2
+
+Total Cost: 117.16575418925899 AED
+--------------------------------------------
+
+Order No. CO31
+
+        x 3
+        x 2
+SWEET02 x 1
+FOOD004 x 3
+
+Total Cost: 39.4791625685424 AED
+--------------------------------------------
+
+Order No. CO32
+
+        x 4
+BEVE001 x 2
+SWEET03 x 1
+FOOD004 x 2
+
+Total Cost: 67.85428956337793 AED
+--------------------------------------------
+
+Order No. CO33
+
+        x 1
+BEVE001 x 2
+SWEET04 x 1
+FOOD002 x 1
+
+Total Cost: 99.49550370733559 AED
+--------------------------------------------
+
+Order No. CO34
+
+FOOD001 x 3
+BEVE001 x 1
+SWEET04 x 2
+FOOD003 x 3
+
+Total Cost: 93.97953382922742 AED
+--------------------------------------------
+
+Order No. CO35
+
+FOOD001 x 4
+BEVE001 x 2
+SWEET03 x 1
+FOOD004 x 1
+
+Total Cost: 43.383060770080164 AED
+--------------------------------------------
+
+Order No. CO36
+
+FOOD003 x 3
+        x 1
+SWEET04 x 2
+FOOD001 x 2
+
+Total Cost: 36.76753139737791 AED
+--------------------------------------------
+
+Order No. CO37
+
+FOOD004 x 4
+        x 1
+        x 2
+        x 1
+
+Total Cost: 70.56273021155707 AED
+--------------------------------------------
+
+Order No. CO38
+
+FOOD004 x 3
+BEVE001 x 1
+SWEET03 x 2
+FOOD004 x 3
+
+Total Cost: 101.24651820600533 AED
+--------------------------------------------
+
+Order No. CO39
+
+FOOD004 x 4
+        x 2
+SWEET04 x 1
+FOOD004 x 2
+
+Total Cost: 46.800374562401565 AED
+--------------------------------------------
+
+Order No. CO40
+
+FOOD001 x 4
+        x 2
+SWEET02 x 1
+FOOD004 x 1
+
+Total Cost: 118.93738858663723 AED
+--------------------------------------------
+
+Order No. CO41
+
+FOOD001 x 4
+BEVE002 x 2
+SWEET02 x 1
+FOOD001 x 3
+
+Total Cost: 59.288986853269606 AED
+--------------------------------------------
+
+Order No. CO42
+
+FOOD001 x 3
+        x 2
+        x 1
+FOOD003 x 1
+
+Total Cost: 38.78988964374056 AED
+--------------------------------------------
+
+Order No. CO43
+
+FOOD004 x 2
+        x 1
+SWEET01 x 1
+FOOD003 x 2
+
+Total Cost: 42.922256401577606 AED
+--------------------------------------------
+
+Order No. CO44
+
+FOOD001 x 1
+        x 2
+SWEET01 x 1
+FOOD001 x 1
+
+Total Cost: 69.0953617141229 AED
+--------------------------------------------
+
+Order No. CO45
+
+FOOD003 x 1
+BEVE002 x 2
+SWEET04 x 2
+        x 2
+
+Total Cost: 55.30311115004122 AED
+--------------------------------------------
+
+Order No. CO46
+
+        x 1
+        x 1
+        x 1
+        x 3
+
+Total Cost: 79.64297708303334 AED
+--------------------------------------------
+
+Order No. CO47
+
+FOOD002 x 2
+        x 2
+SWEET04 x 2
+FOOD004 x 1
+
+Total Cost: 93.27871964672183 AED
+--------------------------------------------
+
+Order No. CO48
+
+FOOD001 x 1
+        x 1
+SWEET03 x 2
+FOOD003 x 3
+
+Total Cost: 36.248937080565526 AED
+--------------------------------------------
+
+Order No. CO49
+
+FOOD002 x 3
+BEVE001 x 2
+SWEET02 x 2
+FOOD001 x 3
+
+Total Cost: 52.417716505716086 AED
+--------------------------------------------
+
+Order No. CO50
+
+FOOD001 x 4
+        x 1
+SWEET04 x 1
+        x 3
+
+Total Cost: 93.71709536058384 AED
+--------------------------------------------
+
+Order No. CO51
+
+        x 4
+BEVE001 x 1
+SWEET04 x 2
+FOOD004 x 1
+
+Total Cost: 95.50160928631453 AED
+--------------------------------------------
+
+Order No. CO52
+
+FOOD001 x 4
+BEVE001 x 1
+SWEET03 x 2
+        x 2
+
+Total Cost: 98.47638647656953 AED
+--------------------------------------------
+
+Order No. CO53
+
+FOOD003 x 1
+BEVE001 x 1
+SWEET03 x 2
+FOOD002 x 2
+
+Total Cost: 42.36698420452232 AED
+--------------------------------------------
+
+Order No. CO54
+
+FOOD003 x 3
+        x 1
+        x 1
+FOOD003 x 2
+
+Total Cost: 65.39703679126562 AED
+--------------------------------------------
+
+Order No. CO55
+
+FOOD002 x 3
+BEVE001 x 2
+SWEET04 x 1
+FOOD001 x 1
+
+Total Cost: 94.84588034155695 AED
+--------------------------------------------
+
+Order No. CO56
+
+FOOD001 x 3
+        x 1
+        x 2
+FOOD001 x 3
+
+Total Cost: 77.29968358247797 AED
+--------------------------------------------
+
+Order No. CO57
+
+FOOD004 x 3
+BEVE002 x 2
+SWEET01 x 2
+FOOD001 x 3
+
+Total Cost: 68.8965790595358 AED
+--------------------------------------------
+
+Order No. CO58
+
+FOOD001 x 4
+BEVE002 x 1
+SWEET03 x 2
+FOOD004 x 3
+
+Total Cost: 98.55610821602608 AED
+--------------------------------------------
+
+Order No. CO59
+
+FOOD003 x 1
+        x 2
+SWEET04 x 2
+        x 3
+
+Total Cost: 92.94735415192119 AED
+--------------------------------------------
+
+Order No. CO60
+
+FOOD001 x 1
+        x 2
+SWEET02 x 2
+FOOD004 x 3
+
+Total Cost: 76.31430616944436 AED
+--------------------------------------------
+
+Order No. CO61
+
+FOOD004 x 3
+BEVE002 x 2
+SWEET03 x 2
+        x 3
+
+Total Cost: 47.63692229474203 AED
+--------------------------------------------
+
+Order No. CO62
+
+        x 2
+        x 2
+        x 2
+FOOD003 x 3
+
+Total Cost: 56.16152901842915 AED
+--------------------------------------------
+
+Order No. CO63
+
+        x 3
+        x 2
+SWEET02 x 2
+FOOD001 x 2
+
+Total Cost: 40.83930588965532 AED
+--------------------------------------------
+
+Order No. CO64
+
+        x 2
+BEVE002 x 2
+SWEET01 x 2
+FOOD001 x 2
+
+Total Cost: 62.14420195255207 AED
+--------------------------------------------
+
+Order No. CO65
+
+FOOD004 x 2
+BEVE002 x 1
+SWEET01 x 2
+FOOD004 x 1
+
+Total Cost: 42.23083076270079 AED
+--------------------------------------------
+
+Order No. CO66
+
+FOOD002 x 3
+BEVE001 x 2
+SWEET03 x 1
+FOOD003 x 2
+
+Total Cost: 114.97493798539622 AED
+--------------------------------------------
+
+Order No. CO67
+
+        x 2
+BEVE002 x 1
+        x 1
+        x 3
+
+Total Cost: 52.624428410192216 AED
+--------------------------------------------
+
+Order No. CO68
+
+FOOD004 x 2
+BEVE002 x 1
+        x 2
+FOOD001 x 2
+
+Total Cost: 99.78776565120059 AED
+--------------------------------------------
+
+Order No. CO69
+
+FOOD003 x 1
+        x 2
+SWEET03 x 1
+FOOD003 x 3
+
+Total Cost: 114.67952318047061 AED
+--------------------------------------------
+
+Order No. CO70
+
+FOOD001 x 3
+BEVE002 x 2
+SWEET01 x 1
+FOOD002 x 2
+
+Total Cost: 36.01356768282836 AED
+--------------------------------------------
+

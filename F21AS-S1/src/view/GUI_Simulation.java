@@ -1,3 +1,4 @@
+
 package view;
 
 
@@ -10,7 +11,7 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.text.DefaultCaret;
 
-import controller.Counter;
+import controller.Controller;
 
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
@@ -50,93 +51,93 @@ public class GUI_Simulation extends JFrame {
 	
 		try {
 		
-		if(a.equals(Counter.getListOrdersA()))
+		if(a.equals(Controller.getListOrdersA()))
 			return "";
 		
-		a = Counter.getListOrdersA();
+		a = Controller.getListOrdersA();
 		return a; 
 		
 		
 	}catch(NullPointerException e) {
-		a = Counter.getListOrdersA();
+		a = Controller.getListOrdersA();
 		return a; 
 	}}
-public String setTextB(){
-	
-	try {
-		if(b.equals(Counter.getListOrdersB()))
-			return "";
-		
-		b = Counter.getListOrdersB();
-		return b;
-		
-	}catch(NullPointerException e) {
-		b = Counter.getListOrdersB();
-		return b;
-	}}
-public String setTextC(){
-	
-	try {
-	
-	if(c.equals(Counter.getListOrdersC()))
-		return "";
-	
-	c = Counter.getListOrdersC();
-	return c; 
-	
-	
-}catch(NullPointerException e) {
-	c = Counter.getListOrdersC();
-	return c; 
-}}
-public String setTextD(){
-	
-	try {
-	
-	if(d.equals(Counter.getListOrdersD()))
-		return "";
-	
-	d = Counter.getListOrdersA();
-	return d; 
-	
-	
-}catch(NullPointerException e) {
-	d = Counter.getListOrdersD();
-	return d; 
-}}
+		public String setTextB(){
+			
+			try {
+				if(b.equals(Controller.getListOrdersB()))
+					return "";
+				
+				b = Controller.getListOrdersB();
+				return b;
+				
+			}catch(NullPointerException e) {
+				b = Controller.getListOrdersB();
+				return b;
+			}}
+		public String setTextC(){
+			
+			try {
+			
+			if(c.equals(Controller.getListOrdersC()))
+				return "";
+			
+			c = Controller.getListOrdersC();
+			return c; 
+			
+			
+		}catch(NullPointerException e) {
+			c = Controller.getListOrdersC();
+			return c; 
+		}}
+		public String setTextD(){
+			
+			try {
+			
+			if(d.equals(Controller.getListOrdersD()))
+				return "";
+			
+			d = Controller.getListOrdersA();
+			return d; 
+			
+			
+		}catch(NullPointerException e) {
+			d = Controller.getListOrdersD();
+			return d; 
+		}}
 
-public String setTextMain(){
-	
-	try {
-		if(m.equals(Counter.getMainListOrders()))
-			return "";
+	public String setTextMain(){
 		
-		m = Counter.getMainListOrders();
-		return m;
+		try {
+			if(m.equals(Controller.getMainListOrders()))
+				return "";
+			
+			m = Controller.getMainListOrders();
+			return m;
+			
+		}catch(NullPointerException e) {
+			m = Controller.getMainListOrders();
+			return m;
+		}}
+
+	public void updateCounter() {
+	
+		textArea_1.append(setTextA());
+		textArea_2.append(setTextB());
+		textArea_5.append(setTextC());
+		textArea_6.append(setTextD());
 		
-	}catch(NullPointerException e) {
-		m = Counter.getMainListOrders();
-		return m;
-	}}
+		
+	}
 
-public void updateCounter() {
-
-	textArea_1.append(setTextA());
-	textArea_2.append(setTextB());
-	textArea_5.append(setTextC());
-	textArea_6.append(setTextD());
-	
-	
-}
-
-public void updateQue() {
-	
-	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-	LocalDateTime now = LocalDateTime.now();
-	textArea.append(setTextMain()+" ---------------------------  "+ dtf.format(now)+"\n");
-	
-	
-}
+	public void updateQue() {
+		
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+		LocalDateTime now = LocalDateTime.now();
+		textArea.append(setTextMain()+" ---------------------------  "+ dtf.format(now)+"\n");
+		
+		
+	}
 	public GUI_Simulation(String aList, String bList, boolean g) {
 		setTitle("Coffee Shop");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -150,13 +151,13 @@ public void updateQue() {
 		scrollPane_1.setBounds(523, 116, 455, 470);
 		contentPane.add(scrollPane_1);
 		scrollPane_1.setViewportView(textArea);
-		textArea.append(Counter.getMainListOrders());
+		textArea.append(Controller.getMainListOrders());
 		
 		DefaultCaret caret = (DefaultCaret)textArea.getCaret();
 		textArea.setEditable(false);
 		
 		
-		Counter c = new Counter();
+		Controller c = new Controller();
 		caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
 		
 		JButton btnOpenCoffeeShop = new JButton("Open Coffee Shop");
@@ -279,7 +280,7 @@ public void updateQue() {
 				public void actionPerformed(ActionEvent e) {
 					try {
 						textField.setText("2");
-						Counter.start();
+						Controller.start();
 						setVisible(false);
 						btnSpeedUpSimulation.setEnabled(true);
 						
@@ -321,6 +322,7 @@ public void updateQue() {
 				
 				    summary.setVisible(true);
 				    
+				    c.logtofile();
 					
 					}});
 			
@@ -364,4 +366,5 @@ public void updateQue() {
 		this.textField.setText(""+s);
 	}
 }
+
 
