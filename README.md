@@ -6,9 +6,13 @@ There are various different versions for this program. V1.0, V1.1, V2.0, V2.1,V2
 The group members are:
 
 Khaled Al Sabahi - H00314885
+
 Pradheepan Raghavan – H00296007
+
 Moiz Dhanerawala - H00200386
+
 Clavin D'souza - H00313903
+
 Shahra Jafar - H00297586
 
 #jar 
